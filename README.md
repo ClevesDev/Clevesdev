@@ -23,15 +23,6 @@ Soy un apasionado de la **Ingeniería de Software** enfocado en crear soluciones
 
 ---
 
-### 📊 Mis Estadísticas de GitHub
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tu-usuario&show_icons=true&theme=tokyonight&count_private=true" alt="Stats" width="400">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tu-usuario&layout=compact&theme=tokyonight" alt="Top Langs" width="300">
-</p>
-
----
-
 ### 📫 Conéctate conmigo
 <p align="left">
   <a href="https://linkedin.com/in/tu-perfil"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
