@@ -1,6 +1,6 @@
 ## Hi there 👋
 # 🚀 Hola, soy Dimas | Software Engineer Student
-
+Software Engineering Student | Flutter & Dart Enthusiast | Building Clean Architecture Solutions
 ---
 
 ### ⚡ Sobre mí
