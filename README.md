@@ -1,9 +1,9 @@
 ## Hi there 👋
 # 🚀 Hola, soy Dimas | Software Engineer Student
 
-<p align="center">
+/* */<p align="center">
   <img src="https://komarev.com/ghpvc/?user=tu-usuario&color=5D5DFF&style=flat-square" alt="Views">
-</p>
+</p>/* */
 
 ---
 
