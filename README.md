@@ -25,10 +25,14 @@ Demostración de la aplicación en funcionamiento (POS, inventario offline-first
 
 ---
 
-### 📊 Estadísticas
+### 📊 Actividad y Estadísticas
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Clevesdev&show_icons=true&theme=tokyonight&locale=es&border_radius=10" alt="GitHub Stats" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Clevesdev&layout=compact&theme=tokyonight&locale=es&border_radius=10" alt="Top Langs" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Clevesdev&show_icons=true&theme=tokyonight&locale=es&border_radius=12&hide_border=true&bg_color=0D1117&title_color=00ADB5&icon_color=00ADB5&text_color=c9d1d9" alt="GitHub Stats" height="155" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Clevesdev&theme=tokyonight&border_radius=12&hide_border=true&background=0D1117&ring=00ADB5&fire=00ADB5&currStreakNum=00ADB5" alt="GitHub Streak" height="155" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Clevesdev&layout=compact&theme=tokyonight&locale=es&border_radius=12&hide_border=true&bg_color=0D1117&title_color=00ADB5&text_color=c9d1d9" alt="Top Langs" height="155" />
 </p>
 
 ---
