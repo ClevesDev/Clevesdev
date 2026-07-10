@@ -25,14 +25,71 @@ Demostración de la aplicación en funcionamiento (POS, inventario offline-first
 
 ---
 
-### 📊 Actividad y Estadísticas
+### 🕹️ Pacman Arcade (Interactive Animation)
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ClevesDev&show_icons=true&theme=tokyonight&locale=es&border_radius=12&hide_border=true" alt="GitHub Stats" height="155" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ClevesDev&theme=tokyonight&border_radius=12&hide_border=true&background=0D1117&ring=00ADB5&fire=00ADB5&currStreakNum=00ADB5" alt="GitHub Streak" height="155" />
-</p>
+  <svg width="100%" height="120" viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg" style="background: #0D1117; border-radius: 16px; border: 2px solid #00ADB5;">
+    <style>
+      @keyframes pacman-move {
+        0% { transform: translateX(-100px); }
+        100% { transform: translateX(900px); }
+      }
+      @keyframes pacman-chomp {
+        0%, 100% { clip-path: polygon(100% 74%, 75% 75%, 100% 76%, 100% 100%, 0% 100%, 0% 0%, 100% 0%); }
+        50% { clip-path: polygon(100% 50%, 75% 75%, 100% 100%, 100% 100%, 0% 100%, 0% 0%, 100% 0%); }
+      }
+      @keyframes ghost-move {
+        0% { transform: translateX(-180px); }
+        100% { transform: translateX(820px); }
+      }
+      @keyframes dot-1 { 0%, 20% { opacity: 1; } 22%, 100% { opacity: 0; } }
+      @keyframes dot-2 { 0%, 32% { opacity: 1; } 34%, 100% { opacity: 0; } }
+      @keyframes dot-3 { 0%, 45% { opacity: 1; } 47%, 100% { opacity: 0; } }
+      @keyframes dot-4 { 0%, 57% { opacity: 1; } 59%, 100% { opacity: 0; } }
+      @keyframes dot-5 { 0%, 70% { opacity: 1; } 72%, 100% { opacity: 0; } }
+      @keyframes dot-6 { 0%, 82% { opacity: 1; } 84%, 100% { opacity: 0; } }
+      
+      .pacman { animation: pacman-move 8s linear infinite; }
+      .pacman-body { fill: #FFD700; animation: pacman-chomp 0.3s ease-in-out infinite; }
+      .ghost { animation: ghost-move 8s linear infinite; }
+      .d1 { fill: #00ADB5; animation: dot-1 8s step-end infinite; }
+      .d2 { fill: #00ADB5; animation: dot-2 8s step-end infinite; }
+      .d3 { fill: #00ADB5; animation: dot-3 8s step-end infinite; }
+      .d4 { fill: #00ADB5; animation: dot-4 8s step-end infinite; }
+      .d5 { fill: #00ADB5; animation: dot-5 8s step-end infinite; }
+      .d6 { fill: #00ADB5; animation: dot-6 8s step-end infinite; }
+    </style>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ClevesDev&layout=compact&theme=tokyonight&locale=es&border_radius=12&hide_border=true" alt="Top Langs" height="155" />
+    <!-- Laberinto de fondo (Líneas de borde neon) -->
+    <line x1="0" y1="20" x2="800" y2="20" stroke="#1F2937" stroke-width="2" stroke-dasharray="10 5" />
+    <line x1="0" y1="100" x2="800" y2="100" stroke="#1F2937" stroke-width="2" stroke-dasharray="10 5" />
+
+    <!-- Comida (Dots) -->
+    <circle cx="120" cy="60" r="6" class="d1" />
+    <circle cx="220" cy="60" r="6" class="d2" />
+    <circle cx="320" cy="60" r="6" class="d3" />
+    <circle cx="420" cy="60" r="6" class="d4" />
+    <circle cx="520" cy="60" r="6" class="d5" />
+    <circle cx="620" cy="60" r="6" class="d6" />
+
+    <!-- Pacman -->
+    <g class="pacman">
+      <g transform="translate(100, 60)">
+        <circle cx="0" cy="0" r="22" class="pacman-body" />
+        <circle cx="4" cy="-10" r="2.5" fill="#000000" />
+      </g>
+    </g>
+
+    <!-- Fantasma Blinky (Persiguiendo a Pacman) -->
+    <g class="ghost">
+      <g transform="translate(30, 60)">
+        <path d="M -18,12 L -18,-8 A 18,18 0 0,1 18,-8 L 18,12 L 12,6 L 6,12 L 0,6 L -6,12 L -12,6 Z" fill="#FF0000" />
+        <circle cx="-6" cy="-4" r="4.5" fill="#FFFFFF" />
+        <circle cx="6" cy="-4" r="4.5" fill="#FFFFFF" />
+        <circle cx="-4.5" cy="-4" r="1.8" fill="#0000FF" />
+        <circle cx="7.5" cy="-4" r="1.8" fill="#0000FF" />
+      </g>
+    </g>
+  </svg>
 </p>
 
 ---
