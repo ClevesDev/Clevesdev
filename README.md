@@ -1,19 +1,40 @@
 ## Hi there 👋
 # 🚀 Hola, soy Dimas | Software Engineer Student
-| Flutter & Dart Enthusiast | Building Clean Architecture Solutions
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00ADB5&center=true&vCenter=true&width=600&lines=Software+Engineer+Student;Flutter+%26+Dart+Developer;Aesthetic+Engineering+%26+Clean+Architecture" alt="Typing SVG" />
+</p>
+
 ---
 
 ### ⚡ Sobre mí
-Soy un apasionado de la **Ingeniería de Software** enfocado en crear soluciones robustas y elegantes. Me especializo en el desarrollo móvil y me encanta aplicar **Clean Architecture** para asegurar que el código sea escalable y mantenible.
+Soy desarrollador de software enfocado en la creación de aplicaciones móviles robustas bajo el estándar de **Clean Architecture** y la estética del **Minimalismo Suizo**. Me apasiona optimizar la experiencia de usuario (UI/UX) y el rendimiento en sistemas móviles.
 
-* 🔭 Actualmente trabajando en proyectos de logística y dashboards optimizados.
-* 🎨 Amante del **Minimalismo Suizo** y el **Aesthetic Engineering** en UI/UX.
-* 🌱 Aprendiendo constantemente sobre infraestructura backend y optimización de sistemas.
+* 📱 **Desarrollo Móvil**: Especializado en Dart & Flutter para soluciones multiplataforma de alto rendimiento.
+* 📐 **Arquitectura**: Fiel creyente del código limpio, desacoplado y con principios SOLID.
+* 🎓 **Formación**: Estudiante de Ingeniería de Software en la Universidad Alejandro de Humboldt.
+
+---
+
+### 📹 Demostración de Proyecto (Showcase)
+Aquí puedes incluir una demostración en video o GIF de tu aplicación (como Krust ERP o Vetro):
+
+<p align="center">
+  <!-- Reemplaza esta URL por el enlace directo a tu GIF o video en el repositorio -->
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3hicnVndXZtcTN1c2Y1MWp5cDFtdXZ1OGZ4N2Zpd2M5Z2tsNXc2MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/33OrjzUFwkwEg/giphy.gif" width="700" alt="App Demo Placeholder" style="border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.45);" />
+</p>
+
+---
+
+### 📊 Estadísticas
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Clevesdev&show_icons=true&theme=tokyonight&locale=es&border_radius=10" alt="GitHub Stats" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Clevesdev&layout=compact&theme=tokyonight&locale=es&border_radius=10" alt="Top Langs" height="150" />
+</p>
 
 ---
 
 ### 🛠️ Stack Tecnológico
-
 <p align="left">
   <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart">
   <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter">
@@ -25,6 +46,6 @@ Soy un apasionado de la **Ingeniería de Software** enfocado en crear soluciones
 
 ### 📫 Conéctate conmigo
 <p align="left">
-  <a href="https://linkedin.com/in/tu-perfil"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:tu-correo@ejemplo.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://linkedin.com/in/dimas-cleves"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:dimascleves.dev@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
