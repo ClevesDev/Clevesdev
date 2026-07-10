@@ -16,12 +16,11 @@ Soy desarrollador de software enfocado en la creación de aplicaciones móviles 
 
 ---
 
-### 📹 Demostración de Proyecto (Showcase)
-Aquí puedes incluir una demostración en video o GIF de tu aplicación (como Krust ERP o Vetro):
+### 📹 Krust ERP (Showcase)
+Demostración de la aplicación en funcionamiento (POS, inventario offline-first y diseño visual premium):
 
 <p align="center">
-  <!-- Reemplaza esta URL por el enlace directo a tu GIF o video en el repositorio -->
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3hicnVndXZtcTN1c2Y1MWp5cDFtdXZ1OGZ4N2Zpd2M5Z2tsNXc2MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/33OrjzUFwkwEg/giphy.gif" width="700" alt="App Demo Placeholder" style="border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.45);" />
+  <video src="assets/showcase.mp4" width="700" autoplay loop muted playsinline style="border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.45);"></video>
 </p>
 
 ---
