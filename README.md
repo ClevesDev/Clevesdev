@@ -97,15 +97,24 @@ Estudiante de **Ingeniería de Software** enfocado en el desarrollo de aplicacio
     <td>
       <h4>⚡ Axis ERP / AxisSuite</h4>
       <p>
-        Plataforma SaaS Offline-First para gestión empresarial y puntos de venta (POS) multi-tenant con sincronización jerárquica en tiempo real.
+        Plataforma SaaS Offline-First multi-giro especializada en <b>trazabilidad industrial de materia prima</b>, costeo normativo y puntos de venta (POS) multi-tenant con sincronización jerárquica en tiempo real.
+      </p>
+      <p align="left">
+        <img src="https://img.shields.io/badge/Standard-NIIF%20%2F%20NIC%202%20Costing-0052CC?style=flat-square">
+        <img src="https://img.shields.io/badge/Engine-BOM%20%26%20Materia%20Prima-8E44AD?style=flat-square">
+        <img src="https://img.shields.io/badge/Costing-Precio%20Promedio%20Ponderado%20(PPP)-3ECF8E?style=flat-square">
+        <img src="https://img.shields.io/badge/Architecture-SaaS%20Multi--Tenant-FF8C00?style=flat-square">
+        <img src="https://img.shields.io/badge/Inventory-Atomic%20Deduction%20%26%20Waste-E74C3C?style=flat-square">
+        <img src="https://img.shields.io/badge/Sync-Push%20%2F%20Pull%20Jer%C3%A1rquico-02569B?style=flat-square&logo=flutter&logoColor=white">
       </p>
       <ul>
-        <li><b>Sincronización Bidireccional Jerárquica:</b> Motor SyncService con resolución de conflictos por niveles para catálogos, existencias y ventas.</li>
-        <li><b>Multi-Tenant Local:</b> Particionamiento seguro de datos en base local SQLite y replicación aislada por negocio en Supabase.</li>
-        <li><b>Alta Disponibilidad:</b> POS con búsqueda instantánea indexada y operación continua en escenarios de conectividad nula o intermitente.</li>
+        <li><b>Trazabilidad de Materia Prima & BOM:</b> Formulación de recetas con descuento atómico de ingredientes por lote de producción, conversión dinámica de unidades de medida (peso/volumen) y auditoría física de mermas y desperdicios.</li>
+        <li><b>Motor Financiero NIIF / NIC 2:</b> Algoritmo determinista de cálculo de costo industrial bajo Precio Promedio Ponderado (PPP), integrando costos fijos, costos indirectos de fabricación (CIF) y consumibles por unidad.</li>
+        <li><b>Arquitectura Multi-Vertical:</b> Módulos especializados inyectados en caliente para Manufactura/Alimentos, Retail/Bodegas (código de barras USB HID en mostrador) y Catálogo Maestro de Repuestos con equivalencias cruzadas.</li>
+        <li><b>Sincronización Jerárquica & Multi-Tenant:</b> Motor <code>SyncService</code> con persistencia local SQLite (Drift) particionada por <code>business_id</code> y reconciliación delta asíncrona hacia Supabase Cloud.</li>
       </ul>
       <p>
-        <code>Flutter</code> • <code>Dart</code> • <code>Drift</code> • <code>Supabase</code> • <code>SaaS Multi-Tenant</code>
+        <code>Flutter</code> • <code>Dart</code> • <code>Drift / SQLite</code> • <code>Supabase Cloud</code> • <code>NIIF NIC 2</code> • <code>SaaS Multi-Tenant</code>
       </p>
     </td>
   </tr>
